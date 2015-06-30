@@ -20,13 +20,13 @@ Modify `mSocket` in `MainActivity.java`. The section of the code looks like this
 
 ```java
 private Socket mSocket;
-    {
-        try {
-            // MODIFY THIS WITH THE APPROPRIATE URL
-            // Note: For some reason, Edison's name does not resolve, and I had to use its IP address
-            mSocket = IO.socket("http://123.456.7.890:8080");
-        } catch(URISyntaxException e) { }
-    }
+{
+    try {
+        // MODIFY THIS WITH THE APPROPRIATE URL
+        // Note: For some reason, Edison's name does not resolve, and I had to use its IP address
+        mSocket = IO.socket("http://123.456.7.890:8080");
+    } catch(URISyntaxException e) { }
+}
 ```
 
 Use the IP address of your Edison in `mSocket`. For some reason, Edison's network name does not resolve (at least for me).
