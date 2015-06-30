@@ -45,3 +45,5 @@ HTTP server listening on port 8080
 ### Using the Android client
 
 See the [Android instructions](https://developer.android.com/tools/building/building-studio.html) to build and run the app.
+
+If you are running this on an Android device, make sure that it is on the same WiFi network as your Edison.
