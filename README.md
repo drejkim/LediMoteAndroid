@@ -4,7 +4,7 @@ Android client for [LediMote](https://github.com/drejkim/LediMote).
 
 Take a look at this [video](https://youtu.be/i61g4aYkrI0) to see the web and iOS clients in action. The Android client behaves similarly.
 
-![LediMote](https://raw.githubusercontent.com/drejkim/LediMoteAndroid/master/screenshots/LediMote.png)
+<img src="https://raw.githubusercontent.com/drejkim/LediMoteAndroid/master/screenshots/LediMote.png" width="250">
 
 ## Requirements
 
